@@ -1,0 +1,224 @@
+									/*
+									html5doctor.com Reset Stylesheet
+									v1.6.1
+									Last Updated: 2010-09-17
+									Author: Richard Clark - http://richclarkdesign.com
+									Twitter: @rich_clark
+									*/
+
+									html, body, div, span, object, iframe,
+									h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+									abbr, address, cite, code,
+									del, dfn, em, img, ins, kbd, q, samp,
+									small, strong, sub, sup, var,
+									b, i,
+									dl, dt, dd, ol, ul, li,
+									fieldset, form, label, legend,
+									table, caption, tbody, tfoot, thead, tr, th, td,
+									article, aside, canvas, details, figcaption, figure,
+									footer, header, hgroup, menu, nav, section, summary,
+									time, mark, audio, video {
+										margin:0;
+										padding:0;
+										border:0;
+										outline:0;
+										font-size:100%;
+										vertical-align:baseline;
+										background:transparent;
+									}
+
+									body {
+										line-height:1;
+									}
+
+									article,aside,details,figcaption,figure,
+									footer,header,hgroup,menu,nav,section {
+										display:block;
+									}
+
+									nav ul {
+										list-style:none;
+									}
+
+									blockquote, q {
+										quotes:none;
+									}
+
+									blockquote:before, blockquote:after,
+									q:before, q:after {
+										content:'';
+										content:none;
+									}
+
+									a {
+										margin:0;
+										padding:0;
+										font-size:100%;
+										vertical-align:baseline;
+										background:transparent;
+									}
+
+									/* change colours to suit your needs */
+									ins {
+										background-color:#ff9;
+										color:#000;
+										text-decoration:none;
+									}
+
+									/* change colours to suit your needs */
+									mark {
+										background-color:#ff9;
+										color:#000;
+										font-style:italic;
+										font-weight:bold;
+									}
+
+									del {
+										text-decoration: line-through;
+									}
+
+									abbr[title], dfn[title] {
+										border-bottom:1px dotted;
+										cursor:help;
+									}
+
+									table {
+										border-collapse:collapse;
+										border-spacing:0;
+									}
+
+									/* change border colour to suit your needs */
+									hr {
+										display:block;
+										height:1px;
+										border:0;  
+										border-top:1px solid #cccccc;
+										margin:1em 0;
+										padding:0;
+									}
+
+									input, select {
+										vertical-align:middle;
+									}
+
+
+
+
+
+
+								/* Our code */
+
+@font-face {
+	font-family: 'Bellota-LightItalic';
+	src: url('../fonts/Bellota-LightItalic.otf');
+}
+@font-face {
+	font-family: 'Bellota-BoldItalic';
+	src: url('../fonts/Bellota-BoldItalic.otf');
+}
+												
+
+form{
+	text-align: center;
+	padding: 10px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    background-image: url("../images/backgrounds/desktop.jpg");
+    background-size: cover;
+	width:100%;
+	height: 100%;
+
+    min-width:240px;
+    min-height: 240px;
+ 
+}
+.login_box{
+	font-family: 'Bellota-LightItalic', sans-serif;
+
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 10%;
+	width: 50%;
+	
+
+	background-color: #8ccca2;
+	border: 1px solid #EDEDED;
+	border-radius: 1%;
+	opacity: 0.98;
+	padding: 0px;
+	
+
+}
+.login_header {
+	font-family: 'Bellota-LightItalic', sans-serif;
+	width: 100%;
+
+	background-color: #3498db;
+	color: #fff;
+	text-align: center;
+	border-top-left-radius:2%;
+	border-top-right-radius: 2%;
+	margin-top: 0;
+	margin-bottom: 3%;
+	
+}
+
+.login_header h3 {
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	margin-top: 0;
+	margin-bottom: 1%;
+	color: blanchedalmond;
+	text-shadow: #73B6E2 0.5px 0.5px 0px;
+	font-size: 150%;
+	
+}
+
+
+.login_header p {
+	font-family: 'Bellota-LightItalic', sans-serif;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	color: blanchedalmond;
+
+
+}
+
+input[type="submit"] {
+	background-color: #3498db;
+	border: 1px solid #3498db;
+	border-radius: 3px;
+	margin: 5px 0 10px 0;
+	padding: 5px 10px 5px 10px;
+	color: blanchedalmond;
+	text-shadow: #73B6E2 0.5px 0.5px 0px;
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	font-size: 100%;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	border: 2px solid #e5e5e5;
+	margin-top: 5px;
+	width: 85%;
+	height: 4em ;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
+	border-color: #3498db;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+
+#second{
+	display: none;
+
+}
